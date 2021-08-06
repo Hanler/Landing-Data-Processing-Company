@@ -1,0 +1,33 @@
+@import "fonts";
+@import "const";
+.your-choice{
+
+}
+.your-choice__first-back{
+    position: absolute;
+    left: 0;
+}
+.your-choice__second-back{
+    position: absolute;
+    right: 0;
+}
+.your-choice__container-brands-images{
+    opacity: 0.1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.your-choice__wrapper-brands{
+    
+    // padding: 0px 150px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.your-choice__wrapper-brands > a{
+    display: inline-block;
+    margin: 0px 37px;
+}
+.your-choice__container-main{
+
+}

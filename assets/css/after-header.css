@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(../fonts/gilroy-bold.ttf) format("truetype"); }
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url(../fonts/gilroy-regular.ttf) format("truetype"); }
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url(../fonts/gilroy-semibold.ttf) format("truetype"); }
+@font-face {
+  font-family: Open-Sans;
+  src: url(../fonts/Open-Sans.ttf) format("truetype"); }
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-Medium.ttf) format("truetype"); }
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../fonts/Inter-Bold.ttf) format("truetype"); }
+.after-header {
+  display: flex;
+  flex-direction: row-reverse; }
+
+.wrapper-content {
+  margin-left: 170px; }
+
+.main-caption {
+  font-family: Inter-Bold;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #99EFD0; }
+
+.credo {
+  margin-top: 19px;
+  font-family: Gilroy-SemiBold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #8476AA;
+  padding-right: 30px; }
+
+.btn-learn-more, .btn-demo {
+  width: 157px;
+  height: 46px;
+  border-radius: 4px;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-learn-more:hover, .btn-demo:hover {
+    cursor: pointer; }
+
+.btn-learn-more {
+  color: #fff;
+  background-color: #F2994A;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  transition: .3s; }
+  .btn-learn-more:hover {
+    background-color: #ef811f; }
+
+.btn-demo {
+  color: #F2994A;
+  border: 1px solid #F2994A;
+  margin-left: 20px; }
+
+.after-header__wrapper-btns {
+  display: flex;
+  padding-top: 40px; }
+
+.wrapper-watch-preview {
+  margin-top: 60px;
+  display: flex; }
+
+.wrapper-watch-preview__background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  height: 80px;
+  border-radius: 4px;
+  background-color: #361C5D;
+  margin-right: 20px; }
+
+.wrapper-watch-preview__wrapper-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.wrapper-watch-preview__credo {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #8476AA; }
+
+.wrapper-watch-preview__link {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #6D6D78; }
+  .wrapper-watch-preview__link:hover {
+    color: #84848f; }
+
+/*# sourceMappingURL=after-header.css.map */

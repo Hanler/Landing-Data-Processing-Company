@@ -1,0 +1,99 @@
+@import "fonts";
+@import "const";
+.after-header{
+    // position: relative;
+    // margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.wrapper-content{
+    margin-left: 170px;
+}
+.main-caption{
+    font-family: Inter-Bold;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50px;
+    color: $themeColor2;
+
+}
+.credo{
+    margin-top: 19px;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    line-height: 22px;
+    color: $themeColor1;
+    padding-right: 30px; // ?
+}
+.btn-learn-more, .btn-demo{
+    width: 157px;
+    height: 46px;
+    border-radius: $borRadiusBtn;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{cursor: pointer;}
+}
+.btn-learn-more{
+    color: #fff;
+    background-color: $baseColor;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s; // ?
+    transition: .3s;
+    &:hover{
+        background-color: darken($baseColor, 9%);
+    }
+}
+.btn-demo{
+    color: $baseColor;
+    border: 1px solid $baseColor;
+    margin-left: 20px;
+}
+.after-header__wrapper-btns{
+    display: flex;
+    padding-top: 40px;
+}
+.wrapper-watch-preview{
+    margin-top: 60px;
+    display: flex;
+}
+.wrapper-watch-preview__background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 140px;
+    height: 80px;
+    border-radius: 4px;
+    background-color: #361C5D;
+    margin-right: 20px;
+}
+.wrapper-watch-preview__wrapper-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.wrapper-watch-preview__credo{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: $themeColor1;
+}
+.wrapper-watch-preview__link{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #6D6D78;
+    &:hover{
+        color: lighten(#6D6D78, 9%);
+    }
+}

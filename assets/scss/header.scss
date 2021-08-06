@@ -1,0 +1,69 @@
+@import "fonts";
+@import "const";
+.header{
+    padding: 79px 170px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper-nav-logo{
+    display: flex;
+    align-items: center;
+}
+.wrapper-logo{
+    margin-right: 25px;
+}
+.wrapper-nav__list{
+    list-style-type: none;
+    display: flex;
+}
+.wrapper-nav__list__item{
+    font-family: Gilroy-SemiBold;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $itemsNavColor;
+    margin-left: 20px;
+    & a{
+        color: $itemsNavColor;
+        -webkit-transition: color .3s;
+        -moz-transition: color .3s;
+        -ms-transition: color .3s; // ?
+        transition: color .3s;
+    }
+    & a:hover{
+        color: lighten($itemsNavColor, 9%);
+    }
+}
+.wrapper-btns{
+    display: flex;
+}
+.btn-sign-in, .btn-sign-up{
+    width: 112px;
+    height: 36px;
+    border: 1px solid $baseColor;
+    border-radius: $borRadiusBtn;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $baseColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{cursor: pointer;}
+}
+.btn-sign-up{
+    background-color: $baseColor;
+    color: #fff;
+    margin-left: 20px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s; // ?
+    transition: .3s;
+    &:hover{
+        background-color: darken($baseColor, 9%);
+    }
+}
