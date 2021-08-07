@@ -1,5 +1,3 @@
-@import "fonts";
-@import "const";
 .after-header{
     // position: relative;
     // margin-top: 100px;
@@ -38,7 +36,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    &:hover{cursor: pointer;}
 }
 .btn-learn-more{
     color: #fff;
@@ -48,6 +45,7 @@
     -moz-transition: .3s;
     -ms-transition: .3s; // ?
     transition: .3s;
+    z-index: 9999;
     &:hover{
         background-color: darken($baseColor, 9%);
     }

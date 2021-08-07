@@ -1,0 +1,91 @@
+.your-choice__first-back{
+    position: absolute;
+    left: 0;
+}
+.your-choice__second-back{
+    position: absolute;
+    right: 0;
+}
+.your-choice__container-brands-images{
+    opacity: 0.1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.your-choice__wrapper-brands{
+    
+    // padding: 0px 150px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.your-choice__wrapper-brands > a{
+    display: inline-block;
+    margin: 0px 37px;
+}
+.your-choice__container-main{
+    margin-top: 99px;
+}
+.caption{
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: $themeColor2;
+}
+.subcaption{
+    margin-top: 13px;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: $themeColor1;
+}
+.wrapper-articles{
+    width: 80%;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-row-gap: 35px;
+    grid-column-gap: 50px;
+}
+.article-card__caption{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: $themeColor2;
+    display: flex;
+}
+.article-card:first-child .article-card__caption::before{
+    content: url('../../images/Flip-horizontal-icon-1.svg');
+    margin-right: 28px;
+}
+.article-card:nth-child(2) .article-card__caption::before{
+    content: url('../../images/Airpods-icon-2.svg');
+    margin-right: 28px;
+}
+.article-card:nth-child(3) .article-card__caption::before{
+    content: url('../../images/LTE-icon-3.svg');
+    margin-right: 28px;
+}
+.article-card:nth-child(4) .article-card__caption::before{
+    content: url('../../images/Thunder-move-icon-4.svg');
+    margin-right: 28px;
+}
+.article-card:nth-child(5) .article-card__caption::before{
+    content: url('../../images/Attachment-icon-5.svg');
+    margin-right: 28px;
+}
+.article-card:last-child .article-card__caption::before{
+    content: url('../../images/Bulb-icon-6.svg');
+    margin-right: 28px;
+}
+.article-card__text{
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    line-height: 22px;
+    color: $themeColor1;
+    margin-left: 52px;
+}

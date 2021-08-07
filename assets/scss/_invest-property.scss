@@ -1,0 +1,16 @@
+.invest-property{
+    padding: 50px 0 80px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.invest-property__caption, .invest-property__subcaption{
+    max-width: 470px;
+}
+.invest-property__subcaption{
+    margin: 32px 0 46px;
+}
+.invest-property__back-effect{
+    position: absolute;
+    right: 0;
+}
