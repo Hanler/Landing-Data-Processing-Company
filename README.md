@@ -1,7 +1,7 @@
 Short info
 ---------
 
-<b>The project's name:</b> `Data Processing Compnay's Landing`
+<b>The project's name:</b> `Data Processing Company's Landing`
 
 <b>Creator:</b> `Danil Khmelnytskyi`
 
