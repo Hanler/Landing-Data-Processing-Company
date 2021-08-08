@@ -372,11 +372,9 @@ a {
   padding-bottom: 150px; }
 
 .help__wrapper-main {
-  width: 80%;
-  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-evenly; }
 
 .mini-caption {
   font-family: Inter;
